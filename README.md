@@ -5,11 +5,9 @@ Follow these steps to get the project running locally:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your_repository_url>
-    cd <your_project_directory>
+    git clone https://github.com/LeoMart83/Frontend-Challenge.git
+    cd .\Frontend-Challenge\
     ```
-
-    _(Replace `<your_repository_url>` with the actual URL of your repository and `<your_project_directory>` with the name of the cloned directory.)_
 
 2.  **Install dependencies:**
 
