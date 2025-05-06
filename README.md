@@ -32,7 +32,7 @@ Follow these steps to get the project running locally:
 
 
 
-**_Testing Answers:_**
+🛠️ **_Testing Answers:_** ⚙️
 
 **To prevent regressions I would use these strategies:**
 
@@ -52,7 +52,7 @@ Follow these steps to get the project running locally:
 -   React Testing Library for unit and integration testing of React components.
 -   Cypress or Playwright for e2e testing for simulating real user interactions across the application.
 
-***General Comments & Notions***
+💬 ***General Comments & Notions*** ℹ️
 
 1. I didn't add success notifications for patinet notes actions on the Patient Details page because the functionality was already implemented on the Patients page.
 
