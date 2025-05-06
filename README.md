@@ -37,7 +37,8 @@ Follow these steps to get the project running locally:
 **To prevent regressions I would use these strategies:**
 
 -   Automated Regression Testing with a high code coverage to prevent regressions after every code change. Basically make sure old code works as expected after you implement something new.
--   End-to-End (E2E) Tests for covering critical user flows such as creating, reading, updating, and deleting patients and notes
+-   End-to-End (E2E). Tests for covering critical user flows such as creating, reading, updating, and deleting patients and notes
+-   Continuous Integration/Continuous Delivery (CI/CD). Integrate the automated unit and E2E tests into the CI/CD pipeline. This ensures that the test suite runs automatically with every code change, preventing regressions from being deployed to higher environments. Failed tests would block the pipeline.
 
 **Main components & features for testing would be:**
 
