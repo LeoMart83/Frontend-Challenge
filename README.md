@@ -55,7 +55,7 @@ Follow these steps to get the project running locally:
 
 💬 ***General Comments & Notes:*** ℹ️
 
-1. I didn't add success notifications for patinet notes actions on the Patient Details page because the functionality was already implemented on the Patients page.
+1. I didn't add success notifications for patient notes actions on the Patient Details page because the functionality was already implemented on the Patients page.
 
 2. You cannot edit/delete a patient from the Patient Details page. I initially intended to add this, but I forgot and remembered after everything else was already finished.
 
