@@ -1,0 +1,28 @@
+.note {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 12px;
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+
+	.noteContent {
+		overflow-wrap: anywhere;
+
+		p {
+			margin: 0;
+		}
+	}
+
+	.noteFooter {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: #777;
+	}
+
+	.noteControls {
+		display: flex;
+		gap: 8px;
+	}
+}

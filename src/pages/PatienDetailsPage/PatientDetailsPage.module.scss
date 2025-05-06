@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: #f9fafb;
+}
+
+.patientData {
+	display: flex;
+	gap: 32px;
+	padding: 32px;
+
+	.patinentInfo {
+		display: flex;
+		gap: 32px;
+		width: 50%;
+
+		img {
+			max-width: 50%;
+			max-height: 300px;
+		}
+	}
+
+	.patientNotes {
+		width: 50%;
+	}
+}
+
+.breadcrumbs {
+	background-color: transparent;
+	border: none;
+
+	span {
+		color: #6366f1;
+		font-size: 20px;
+	}
+}
